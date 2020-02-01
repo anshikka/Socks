@@ -1,0 +1,16 @@
+Testcases/TestCase3/F10/xhq.txt
+Testcases/TestCase3/F10/xho.txt
+Testcases/TestCase3/F4/xcs.txt
+Testcases/TestCase3/F4/xcm.txt
+Testcases/TestCase3/F3/xcg.txt
+Testcases/TestCase3/F3/xbx.txt
+Testcases/TestCase3/F2/xav.txt
+Testcases/TestCase3/F2/xar.txt
+Testcases/TestCase3/F5/xdu.txt
+Testcases/TestCase3/F5/xdj.txt
+Testcases/TestCase3/F7/xes.txt
+Testcases/TestCase3/F7/xfc.txt
+Testcases/TestCase3/F6/xel.txt
+Testcases/TestCase3/F1/xac.txt
+Testcases/TestCase3/F8/xfk.txt
+Testcases/TestCase3/F8/xfu.txt

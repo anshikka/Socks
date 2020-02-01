@@ -1,0 +1,64 @@
+Executed ./server 8088
+Executed ./client Testcases/TestCase2 5 127.0.0.1 8088
+with commands.txt (1 3 4 5 6 7)
+
+log_client.txt
+...
+[5] open connection
+[5] CHECKIN: 0 5
+[5] UPDATE_AZLIST: 40
+[5] GET_AZLIST: 0 0 1345 1039 1754 1037 771 629 611 731 676 144 206 531 1062 735 701 1887 96 889 2067 1008 1234 291 385 29 62 80
+[5] GET_MAPPER_UPDATES: 0 40
+[5] GET_ALL_UPDATES: 0 200
+[5] CHECKOUT: 0 5
+[5] close connection
+...
+
+< output for extra credit >
+[-1] open connection
+[-1] CHECKIN: 1 -1
+[-1] close connection
+[-1] open connection
+[-1] GET_AZLIST: 0 0 1345 1039 1754 1037 771 629 611 731 676 144 206 531 1062 735 701 1887 96 889 2067 1008 1234 291 385 29 62 80
+[-1] close connection
+[-1] open connection
+[-1] GET_MAPPER_UPDATES: 1 0
+[-1] close connection
+[-1] open connection
+[-1] GET_ALL_UPDATES: 0 200
+[-1] close connection
+[-1] open connection
+[-1] CHECKOUT: 1 -1
+[-1] close connection
+[-1] wrong command
+
+< Final result of all updates >
+200
+
+< Final result of azList >
+A 1345
+B 1039
+C 1754
+D 1037
+E 771
+F 629
+G 611
+H 731
+I 676
+J 144
+K 206
+L 531
+M 1062
+N 735
+O 701
+P 1887
+Q 96
+R 889
+S 2067
+T 1008
+U 1234
+V 291
+W 385
+X 29
+Y 62
+Z 80
